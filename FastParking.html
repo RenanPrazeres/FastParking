@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Parking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/tabela.css">
+</head>
+<body>
+    <div class="logo">
+        <h1>Sistema Fast Parking</h1>
+    </div>
+        <div class="imagem">
+        <img src="Fast.png">
+        </div>
+            <center>
+            <div class="caixa">
+                <form>
+                    <label>Nome:</label>
+                    <input class="input-field" maxlength="17" type="text" id="nome" required placeholder="Digite o Nome">
+                    <br>
+                    <br>
+                    <label>Placa:</label>
+                    <input class="input-field"  id="placaDoCarro" type="text" required placeholder="Digite a Placa">
+                    <br>
+                    <br>
+                    <button class="btn green" id="Adicionar" required > Adicionar </button>
+                     <button class="btn blue" id="Preco" required > Preços </button>
+                </form>  
+            </div>
+            </center>
+            <center>
+            <br>
+            <br>
+        <div class="tabela">
+        <table class="table" id="tabelaClientes">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Placa</th>
+                    <th>Data</th>
+                    <th>Hora</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        </div>
+        </center>
+            
+</body>
+</html>
