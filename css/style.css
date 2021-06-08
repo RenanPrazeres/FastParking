@@ -32,3 +32,12 @@ h3{
     
     text-align: right;
 }
+
+.caixa2{
+    background-color: rgb(154, 165, 165);
+    border: 1px;
+    height: 400px;
+    width: 500px;
+    display: inline-block;
+    padding-top: 10px;
+}

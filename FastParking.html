@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/tabela.css">
 </head>
 <body>
+    <div id="modalAdicionar">
     <div class="logo">
         <h1>Sistema Fast Parking</h1>
     </div>
@@ -29,8 +30,8 @@
                     <input class="input-field"  id="placaDoCarro" type="text" required placeholder="Digite a Placa">
                     <br>
                     <br>
-                    <button class="btn green" id="Adicionar" required > Adicionar </button>
-                     <button class="btn blue" id="Preco" required > Preços </button>
+                    <button class="btn green" id="btnAdicionar"  > Adicionar </button>
+                     <button class="btn blue" id="btnPreco" > Preços </button>
                 </form>  
             </div>
             </center>
@@ -50,9 +51,23 @@
             </thead>
             <tbody>
             </tbody>
+            <tbody>
+                <tr>
+                    <td>Renan Prazeres </td>
+                    <td>FKP 3635</td>
+                    <td>02/05/2021</td>
+                    <td>10:35:00</td>
+                    <td>
+                        <button id="btnComprovante" class="btn blue">Comprovante</button>
+                        <button id="btnEditar" class="btn green">Editar</button>
+                        <button id="btnSair" class="btn red">Saida</button>
+                    </td>
+                </tr>
+            </tbody>
         </table>
         </div>
         </center>
-            
+        </div>
+        <script src="./main.js"></script>
 </body>
 </html>
